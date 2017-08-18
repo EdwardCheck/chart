@@ -1,0 +1,867 @@
+/* ------------------theme-default------------------ */
+/* blue 蓝色*/
+/* #2196f3 */
+
+.theme-default .login-page .bg,
+.theme-default .side-container .bg{
+    background: #303457;
+    opacity: 0.92;
+}
+
+.theme-default .btn-bg,
+.theme-default .soso button,
+.theme-default .tag-list li .time .icon,
+.theme-default .pop .group-list a.active,
+.theme-default .play-page-top .f-r .tag:hover,
+.theme-default .task-detail-list li .do a:hover,
+.theme-default .play-page-top .ctrl-box .f-l a:hover,
+.theme-default .progress-bar .active-length .btn:before,
+.theme-default .play-page-top .f-r .auto.active,
+.theme-default .play-page-top .f-r .text.active,
+.theme-default .progress-bar .active-length{
+    background: #2196f3;
+}
+
+.theme-default .btn-bg:hover,
+.theme-default .soso button:hover{
+    background: #1c85d8;
+}
+
+.theme-default a.btn-line:hover {
+    background: #eaf6ff;
+}
+
+.theme-default .nav a.active span,
+.theme-default .nav a.active i.iconfont,
+.theme-default .tree .name a.icon:hover .iconfont,
+.theme-default .tree .name a.text:hover,
+.theme-default .tree li a:hover,
+.theme-default .tree .icon-tree-open,
+.theme-default .tree .active,
+.theme-default .tab li a:hover,
+.theme-default table td .do i,
+.theme-default table th a:hover span,
+.theme-default table th a:hover i.iconfont,
+.theme-default .pagination button:hover,
+.theme-default .pop .btn a.action,
+.theme-default .tag-list li a:hover .time,
+.theme-default .tag-list li a:hover .each-title,
+.theme-default .tag-list li a:hover .description,
+.theme-default .do.new-window a:hover i.iconfont,
+.theme-default .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-default .model-box .title .f-r .do a i.iconfont,
+.theme-default .down-load,
+.theme-default .group-path a,
+.theme-default .question-type li,
+.theme-default .add-group-btn,
+.theme-default .question-group .each-group.active .title .f-l,
+.theme-default .department .do a:hover,
+.theme-default .ta_date .opt_sel,
+.theme-default .form-template-list .do a,
+.theme-default .step span.active,
+.theme-default .person-sel .tree-box .tree .user a:hover,
+.theme-default .play-page-top .f-r .auto:hover,
+.theme-default .play-page-top .f-r .text:hover,
+.theme-default .play-page-top .f-r .tag,
+.theme-default .task-detail-list li .do a i.iconfont,
+.theme-default a.btn-line,
+.theme-default .play-page-top .flex-box .scroll-text p.active,
+.theme-default .play-page-top .f-r .speed:hover{
+    color: #2196f3;
+}
+
+.theme-default table td .do a:hover i,
+.theme-default .pop .btn a.action:hover,
+.theme-default .model-box .title .f-r .do a:hover i.iconfont,
+.theme-default .down-load:hover,
+.theme-default .group-path a:hover,
+.theme-default .add-group-btn:hover,
+.theme-default .form-template-list .do a:hover{
+    color: #1c85d8;
+}
+
+.theme-default table tr:hover,
+.theme-default .rank-box .each-group li:hover,
+.theme-default .task-detail-list li:hover,
+.theme-default .pop .user-choose .f-r .model-box li:hover,
+.theme-default .soso-auto li.active,
+.theme-default .question-type li:hover{
+    background: #ebf4fa;
+}
+
+.theme-default .question-group .each-group.active,
+.theme-default .form-template-list li:hover .in{
+    box-shadow: rgba(33,150,243,0.5) 0 0 10px;
+}
+
+.theme-default table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-default .question-group .each-group.active,
+.theme-default .form-template-list li:hover .in,
+.theme-default .play-page-top .f-r .tag,
+.theme-default .task-detail-list li .do a,
+.theme-default .play-page-top .f-r .auto.active,
+.theme-default .play-page-top .f-r .text.active,
+.theme-default .play-page-top .f-r .auto:hover,
+.theme-default .play-page-top .f-r .text:hover,
+.theme-default .play-page-top .ctrl-box .f-l a,
+.theme-default .pop .group-list a.active,
+.theme-default a.btn-line,
+.theme-default input[type="range"]::-webkit-slider-thumb,
+.theme-default input[type="radio"]:checked,
+.theme-default .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-default .play-page-top .f-r .speed:hover{
+    border-color: #2196f3;
+}
+
+.theme-default input[type="checkbox"]:checked{
+    background-color: #2196f3;
+    border-color: #1c7fce;
+}
+
+
+
+/* ------------------theme-red------------------ */
+/* red 红色*/
+/* #f54337 */
+
+.theme-red .login-page .bg,
+.theme-red .side-container .bg{
+    background: #1d0e0f;
+    opacity: 0.92;
+}
+
+.theme-red .btn-bg,
+.theme-red .soso button,
+.theme-red .tag-list li .time .icon,
+.theme-red .pop .group-list a.active,
+.theme-red .play-page-top .f-r .tag:hover,
+.theme-red .task-detail-list li .do a:hover,
+.theme-red .play-page-top .ctrl-box .f-l a:hover,
+.theme-red .progress-bar .active-length .btn:before,
+.theme-red .play-page-top .f-r .auto.active,
+.theme-red .play-page-top .f-r .text.active,
+.theme-red .progress-bar .active-length{
+    background: #f54337;
+}
+
+.theme-red .btn-bg:hover,
+.theme-red .soso button:hover{
+    background: #ec3a2e;
+}
+
+.theme-red a.btn-line:hover {
+    background: #fff5f4;
+}
+
+.theme-red .nav a.active span,
+.theme-red .nav a.active i.iconfont,
+.theme-red .tree .name a.icon:hover .iconfont,
+.theme-red .tree .name a.text:hover,
+.theme-red .tree li a:hover,
+.theme-red .tree .icon-tree-open,
+.theme-red .tree .active,
+.theme-red .tab li a:hover,
+.theme-red table td .do i,
+.theme-red table th a:hover span,
+.theme-red table th a:hover i.iconfont,
+.theme-red .pagination button:hover,
+.theme-red .pop .btn a.action,
+.theme-red .tag-list li a:hover .time,
+.theme-red .tag-list li a:hover .each-title,
+.theme-red .tag-list li a:hover .description,
+.theme-red .do.new-window a:hover i.iconfont,
+.theme-red .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-red .model-box .title .f-r .do a i.iconfont,
+.theme-red .down-load,
+.theme-red .group-path a,
+.theme-red .question-type li,
+.theme-red .add-group-btn,
+.theme-red .question-group .each-group.active .title .f-l,
+.theme-red .department .do a:hover,
+.theme-red .ta_date .opt_sel,
+.theme-red .form-template-list .do a,
+.theme-red .step span.active,
+.theme-red .person-sel .tree-box .tree .user a:hover,
+.theme-red .play-page-top .f-r .auto:hover,
+.theme-red .play-page-top .f-r .text:hover,
+.theme-red .play-page-top .f-r .tag,
+.theme-red .task-detail-list li .do a i.iconfont,
+.theme-red a.btn-line,
+.theme-red .play-page-top .flex-box .scroll-text p.active,
+.theme-red .play-page-top .f-r .speed:hover{
+    color: #f54337;
+}
+
+.theme-red table td .do a:hover i,
+.theme-red .pop .btn a.action:hover,
+.theme-red .model-box .title .f-r .do a:hover i.iconfont,
+.theme-red .down-load:hover,
+.theme-red .group-path a:hover,
+.theme-red .add-group-btn:hover,
+.theme-red .form-template-list .do a:hover{
+    color: #cd2116;
+}
+
+.theme-red table tr:hover,
+.theme-red .rank-box .each-group li:hover,
+.theme-red .task-detail-list li:hover,
+.theme-red .pop .user-choose .f-r .model-box li:hover,
+.theme-red .soso-auto li.active,
+.theme-red .question-type li:hover{
+    background: #fff5f4;
+}
+
+.theme-red .question-group .each-group.active,
+.theme-red .form-template-list li:hover .in{
+    box-shadow: rgba(243,33,77,0.2) 0 0 10px;
+}
+
+.theme-red table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-red .question-group .each-group.active,
+.theme-red .form-template-list li:hover .in,
+.theme-red .play-page-top .f-r .tag,
+.theme-red .task-detail-list li .do a,
+.theme-red .play-page-top .f-r .auto.active,
+.theme-red .play-page-top .f-r .text.active,
+.theme-red .play-page-top .f-r .auto:hover,
+.theme-red .play-page-top .f-r .text:hover,
+.theme-red .play-page-top .ctrl-box .f-l a,
+.theme-red .pop .group-list a.active,
+.theme-red a.btn-line,
+.theme-red input[type="range"]::-webkit-slider-thumb,
+.theme-red input[type="radio"]:checked,
+.theme-red .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-red .play-page-top .f-r .speed:hover{
+    border-color: #f54337;
+}
+
+.theme-red input[type="checkbox"]:checked{
+    background-color: #f54337;
+    border-color: #db3429;
+}
+
+
+/* ------------------theme-pink------------------ */
+/* pink 玫红*/
+/* #e91d62 */
+
+.theme-pink .login-page .bg,
+.theme-pink .side-container .bg{
+    background: #161012;
+    opacity: 0.92;
+}
+
+.theme-pink .btn-bg,
+.theme-pink .soso button,
+.theme-pink .tag-list li .time .icon,
+.theme-pink .pop .group-list a.active,
+.theme-pink .play-page-top .f-r .tag:hover,
+.theme-pink .task-detail-list li .do a:hover,
+.theme-pink .play-page-top .ctrl-box .f-l a:hover,
+.theme-pink .progress-bar .active-length .btn:before,
+.theme-pink .play-page-top .f-r .auto.active,
+.theme-pink .play-page-top .f-r .text.active,
+.theme-pink .progress-bar .active-length{
+    background: #e91d62;
+}
+
+.theme-pink .btn-bg:hover,
+.theme-pink .soso button:hover{
+    background: #cf1352;
+}
+
+.theme-pink a.btn-line:hover {
+    background: #fff3f7;
+}
+
+.theme-pink .nav a.active span,
+.theme-pink .nav a.active i.iconfont,
+.theme-pink .tree .name a.icon:hover .iconfont,
+.theme-pink .tree .name a.text:hover,
+.theme-pink .tree li a:hover,
+.theme-pink .tree .icon-tree-open,
+.theme-pink .tree .active,
+.theme-pink .tab li a:hover,
+.theme-pink table td .do i,
+.theme-pink table th a:hover span,
+.theme-pink table th a:hover i.iconfont,
+.theme-pink .pagination button:hover,
+.theme-pink .pop .btn a.action,
+.theme-pink .tag-list li a:hover .time,
+.theme-pink .tag-list li a:hover .each-title,
+.theme-pink .tag-list li a:hover .description,
+.theme-pink .do.new-window a:hover i.iconfont,
+.theme-pink .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-pink .model-box .title .f-r .do a i.iconfont,
+.theme-pink .down-load,
+.theme-pink .group-path a,
+.theme-pink .question-type li,
+.theme-pink .add-group-btn,
+.theme-pink .question-group .each-group.active .title .f-l,
+.theme-pink .department .do a:hover,
+.theme-pink .ta_date .opt_sel,
+.theme-pink .form-template-list .do a,
+.theme-pink .step span.active,
+.theme-pink .person-sel .tree-box .tree .user a:hover,
+.theme-pink .play-page-top .f-r .auto:hover,
+.theme-pink .play-page-top .f-r .text:hover,
+.theme-pink .play-page-top .f-r .tag,
+.theme-pink .task-detail-list li .do a i.iconfont,
+.theme-pink a.btn-line,
+.theme-pink .play-page-top .flex-box .scroll-text p.active,
+.theme-pink .play-page-top .f-r .speed:hover{
+    color: #e91d62;
+}
+
+.theme-pink table td .do a:hover i,
+.theme-pink .pop .btn a.action:hover,
+.theme-pink .model-box .title .f-r .do a:hover i.iconfont,
+.theme-pink .down-load:hover,
+.theme-pink .group-path a:hover,
+.theme-pink .add-group-btn:hover,
+.theme-pink .form-template-list .do a:hover{
+    color: #cf1352;
+}
+
+.theme-pink table tr:hover,
+.theme-pink .rank-box .each-group li:hover,
+.theme-pink .task-detail-list li:hover,
+.theme-pink .pop .user-choose .f-r .model-box li:hover,
+.theme-pink .soso-auto li.active,
+.theme-pink .question-type li:hover{
+    background: #fff3f7;
+}
+
+.theme-pink .question-group .each-group.active,
+.theme-pink .form-template-list li:hover .in{
+    box-shadow: rgba(233,29,98,0.5) 0 0 10px;
+}
+
+.theme-pink table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-pink .question-group .each-group.active,
+.theme-pink .form-template-list li:hover .in,
+.theme-pink .play-page-top .f-r .tag,
+.theme-pink .task-detail-list li .do a,
+.theme-pink .play-page-top .f-r .auto.active,
+.theme-pink .play-page-top .f-r .text.active,
+.theme-pink .play-page-top .f-r .auto:hover,
+.theme-pink .play-page-top .f-r .text:hover,
+.theme-pink .play-page-top .ctrl-box .f-l a,
+.theme-pink .pop .group-list a.active,
+.theme-pink a.btn-line,
+.theme-pink input[type="range"]::-webkit-slider-thumb,
+.theme-pink input[type="radio"]:checked,
+.theme-pink .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-pink .play-page-top .f-r .speed:hover{
+    border-color: #e91d62;
+}
+
+.theme-pink input[type="checkbox"]:checked{
+    background-color: #e91d62;
+    border-color: #d01252;
+}
+
+
+/* ------------------theme-purple------------------ */
+/* purple 紫色*/
+/* #7a40e3 */
+
+.theme-purple .login-page .bg,
+.theme-purple .side-container .bg{
+    background: #0e0a16;
+    opacity: 0.92;
+}
+
+.theme-purple .btn-bg,
+.theme-purple .soso button,
+.theme-purple .tag-list li .time .icon,
+.theme-purple .pop .group-list a.active,
+.theme-purple .play-page-top .f-r .tag:hover,
+.theme-purple .task-detail-list li .do a:hover,
+.theme-purple .play-page-top .ctrl-box .f-l a:hover,
+.theme-purple .progress-bar .active-length .btn:before,
+.theme-purple .play-page-top .f-r .auto.active,
+.theme-purple .play-page-top .f-r .text.active,
+.theme-purple .progress-bar .active-length{
+    background: #7a40e3;
+}
+
+.theme-purple .btn-bg:hover,
+.theme-purple .soso button:hover{
+    background: #4b2590;
+}
+
+.theme-purple a.btn-line:hover {
+    background: #f9f6ff;
+}
+
+.theme-purple .nav a.active span,
+.theme-purple .nav a.active i.iconfont,
+.theme-purple .tree .name a.icon:hover .iconfont,
+.theme-purple .tree .name a.text:hover,
+.theme-purple .tree li a:hover,
+.theme-purple .tree .icon-tree-open,
+.theme-purple .tree .active,
+.theme-purple .tab li a:hover,
+.theme-purple table td .do i,
+.theme-purple table th a:hover span,
+.theme-purple table th a:hover i.iconfont,
+.theme-purple .pagination button:hover,
+.theme-purple .pop .btn a.action,
+.theme-purple .tag-list li a:hover .time,
+.theme-purple .tag-list li a:hover .each-title,
+.theme-purple .tag-list li a:hover .description,
+.theme-purple .do.new-window a:hover i.iconfont,
+.theme-purple .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-purple .model-box .title .f-r .do a i.iconfont,
+.theme-purple .down-load,
+.theme-purple .group-path a,
+.theme-purple .question-type li,
+.theme-purple .add-group-btn,
+.theme-purple .question-group .each-group.active .title .f-l,
+.theme-purple .department .do a:hover,
+.theme-purple .ta_date .opt_sel,
+.theme-purple .form-template-list .do a,
+.theme-purple .step span.active,
+.theme-purple .person-sel .tree-box .tree .user a:hover,
+.theme-purple .play-page-top .f-r .auto:hover,
+.theme-purple .play-page-top .f-r .text:hover,
+.theme-purple .play-page-top .f-r .tag,
+.theme-purple .task-detail-list li .do a i.iconfont,
+.theme-purple a.btn-line,
+.theme-purple .play-page-top .flex-box .scroll-text p.active,
+.theme-purple .play-page-top .f-r .speed:hover{
+    color: #7a40e3;
+}
+
+.theme-purple table td .do a:hover i,
+.theme-purple .pop .btn a.action:hover,
+.theme-purple .model-box .title .f-r .do a:hover i.iconfont,
+.theme-purple .down-load:hover,
+.theme-purple .group-path a:hover,
+.theme-purple .add-group-btn:hover,
+.theme-purple .form-template-list .do a:hover{
+    color: #4d2597;
+}
+
+.theme-purple table tr:hover,
+.theme-purple .rank-box .each-group li:hover,
+.theme-purple .task-detail-list li:hover,
+.theme-purple .pop .user-choose .f-r .model-box li:hover,
+.theme-purple .soso-auto li.active,
+.theme-purple .question-type li:hover{
+    background: #f9f6ff;
+}
+
+.theme-purple .question-group .each-group.active,
+.theme-purple .form-template-list li:hover .in{
+    box-shadow: rgba(77,37,151,0.5) 0 0 10px;
+}
+
+.theme-purple table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-purple .question-group .each-group.active,
+.theme-purple .form-template-list li:hover .in,
+.theme-purple .play-page-top .f-r .tag,
+.theme-purple .task-detail-list li .do a,
+.theme-purple .play-page-top .f-r .auto.active,
+.theme-purple .play-page-top .f-r .text.active,
+.theme-purple .play-page-top .f-r .auto:hover,
+.theme-purple .play-page-top .f-r .text:hover,
+.theme-purple .play-page-top .ctrl-box .f-l a,
+.theme-purple .pop .group-list a.active,
+.theme-purple a.btn-line,
+.theme-purple input[type="range"]::-webkit-slider-thumb,
+.theme-purple input[type="radio"]:checked,
+.theme-purple .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-purple .play-page-top .f-r .speed:hover{
+    border-color: #7a40e3;
+}
+
+.theme-purple input[type="checkbox"]:checked{
+    background-color: #7a40e3;
+    border-color: #692ed5;
+}
+
+
+/* ------------------theme-teal------------------ */
+/* teal 水青*/
+/* #009788 */
+
+.theme-teal .login-page .bg,
+.theme-teal .side-container .bg{
+    background: #020e0d;
+    opacity: 0.92;
+}
+
+.theme-teal .btn-bg,
+.theme-teal .soso button,
+.theme-teal .tag-list li .time .icon,
+.theme-teal .pop .group-list a.active,
+.theme-teal .play-page-top .f-r .tag:hover,
+.theme-teal .task-detail-list li .do a:hover,
+.theme-teal .play-page-top .ctrl-box .f-l a:hover,
+.theme-teal .progress-bar .active-length .btn:before,
+.theme-teal .play-page-top .f-r .auto.active,
+.theme-teal .play-page-top .f-r .text.active,
+.theme-teal .progress-bar .active-length{
+    background: #009788;
+}
+
+.theme-teal .btn-bg:hover,
+.theme-teal .soso button:hover{
+    background: #00796d;
+}
+
+.theme-teal a.btn-line:hover {
+    background: #f6fffe;
+}
+
+.theme-teal .nav a.active span,
+.theme-teal .nav a.active i.iconfont,
+.theme-teal .tree .name a.icon:hover .iconfont,
+.theme-teal .tree .name a.text:hover,
+.theme-teal .tree li a:hover,
+.theme-teal .tree .icon-tree-open,
+.theme-teal .tree .active,
+.theme-teal .tab li a:hover,
+.theme-teal table td .do i,
+.theme-teal table th a:hover span,
+.theme-teal table th a:hover i.iconfont,
+.theme-teal .pagination button:hover,
+.theme-teal .pop .btn a.action,
+.theme-teal .tag-list li a:hover .time,
+.theme-teal .tag-list li a:hover .each-title,
+.theme-teal .tag-list li a:hover .description,
+.theme-teal .do.new-window a:hover i.iconfont,
+.theme-teal .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-teal .model-box .title .f-r .do a i.iconfont,
+.theme-teal .down-load,
+.theme-teal .group-path a,
+.theme-teal .question-type li,
+.theme-teal .add-group-btn,
+.theme-teal .question-group .each-group.active .title .f-l,
+.theme-teal .department .do a:hover,
+.theme-teal .ta_date .opt_sel,
+.theme-teal .form-template-list .do a,
+.theme-teal .step span.active,
+.theme-teal .person-sel .tree-box .tree .user a:hover,
+.theme-teal .play-page-top .f-r .auto:hover,
+.theme-teal .play-page-top .f-r .text:hover,
+.theme-teal .play-page-top .f-r .tag,
+.theme-teal .task-detail-list li .do a i.iconfont,
+.theme-teal a.btn-line,
+.theme-teal .play-page-top .flex-box .scroll-text p.active,
+.theme-teal .play-page-top .f-r .speed:hover{
+    color: #009788;
+}
+
+.theme-teal table td .do a:hover i,
+.theme-teal .pop .btn a.action:hover,
+.theme-teal .model-box .title .f-r .do a:hover i.iconfont,
+.theme-teal .down-load:hover,
+.theme-teal .group-path a:hover,
+.theme-teal .add-group-btn:hover,
+.theme-teal .form-template-list .do a:hover{
+    color: #008376;
+}
+
+.theme-teal table tr:hover,
+.theme-teal .rank-box .each-group li:hover,
+.theme-teal .task-detail-list li:hover,
+.theme-teal .pop .user-choose .f-r .model-box li:hover,
+.theme-teal .soso-auto li.active,
+.theme-teal .question-type li:hover{
+    background: #f6fffe;
+}
+
+.theme-teal .question-group .each-group.active,
+.theme-teal .form-template-list li:hover .in{
+    box-shadow: rgba(0,151,136,0.5) 0 0 10px;
+}
+
+.theme-teal table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-teal .question-group .each-group.active,
+.theme-teal .form-template-list li:hover .in,
+.theme-teal .play-page-top .f-r .tag,
+.theme-teal .task-detail-list li .do a,
+.theme-teal .play-page-top .f-r .auto.active,
+.theme-teal .play-page-top .f-r .text.active,
+.theme-teal .play-page-top .f-r .auto:hover,
+.theme-teal .play-page-top .f-r .text:hover,
+.theme-teal .play-page-top .ctrl-box .f-l a,
+.theme-teal .pop .group-list a.active,
+.theme-teal a.btn-line,
+.theme-teal input[type="range"]::-webkit-slider-thumb,
+.theme-teal input[type="radio"]:checked,
+.theme-teal .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-teal .play-page-top .f-r .speed:hover{
+    border-color: #009788;
+}
+
+.theme-teal input[type="checkbox"]:checked{
+    background-color: #009788;
+    border-color: #017469;
+}
+
+
+/* ------------------theme-green------------------ */
+/* green 绿色*/
+/* #4cb050 */
+
+.theme-green .login-page .bg,
+.theme-green .side-container .bg{
+    background: #080a08;
+    opacity: 0.92;
+}
+
+.theme-green .btn-bg,
+.theme-green .soso button,
+.theme-green .tag-list li .time .icon,
+.theme-green .pop .group-list a.active,
+.theme-green .play-page-top .f-r .tag:hover,
+.theme-green .task-detail-list li .do a:hover,
+.theme-green .play-page-top .ctrl-box .f-l a:hover,
+.theme-green .progress-bar .active-length .btn:before,
+.theme-green .play-page-top .f-r .auto.active,
+.theme-green .play-page-top .f-r .text.active,
+.theme-green .progress-bar .active-length{
+    background: #4cb050;
+}
+
+.theme-green .btn-bg:hover,
+.theme-green .soso button:hover{
+    background: #2a912e;
+}
+
+.theme-green a.btn-line:hover {
+    background: #f5fff5;
+}
+
+.theme-green .nav a.active span,
+.theme-green .nav a.active i.iconfont,
+.theme-green .tree .name a.icon:hover .iconfont,
+.theme-green .tree .name a.text:hover,
+.theme-green .tree li a:hover,
+.theme-green .tree .icon-tree-open,
+.theme-green .tree .active,
+.theme-green .tab li a:hover,
+.theme-green table td .do i,
+.theme-green table th a:hover span,
+.theme-green table th a:hover i.iconfont,
+.theme-green .pagination button:hover,
+.theme-green .pop .btn a.action,
+.theme-green .tag-list li a:hover .time,
+.theme-green .tag-list li a:hover .each-title,
+.theme-green .tag-list li a:hover .description,
+.theme-green .do.new-window a:hover i.iconfont,
+.theme-green .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-green .model-box .title .f-r .do a i.iconfont,
+.theme-green .down-load,
+.theme-green .group-path a,
+.theme-green .question-type li,
+.theme-green .add-group-btn,
+.theme-green .question-group .each-group.active .title .f-l,
+.theme-green .department .do a:hover,
+.theme-green .ta_date .opt_sel,
+.theme-green .form-template-list .do a,
+.theme-green .step span.active,
+.theme-green .person-sel .tree-box .tree .user a:hover,
+.theme-green .play-page-top .f-r .auto:hover,
+.theme-green .play-page-top .f-r .text:hover,
+.theme-green .play-page-top .f-r .tag,
+.theme-green .task-detail-list li .do a i.iconfont,
+.theme-green a.btn-line,
+.theme-green .play-page-top .flex-box .scroll-text p.active,
+.theme-green .play-page-top .f-r .speed:hover{
+    color: #4cb050;
+}
+
+.theme-green table td .do a:hover i,
+.theme-green .pop .btn a.action:hover,
+.theme-green .model-box .title .f-r .do a:hover i.iconfont,
+.theme-green .down-load:hover,
+.theme-green .group-path a:hover,
+.theme-green .add-group-btn:hover,
+.theme-green .form-template-list .do a:hover{
+    color: #2a912e;
+}
+
+.theme-green table tr:hover,
+.theme-green .rank-box .each-group li:hover,
+.theme-green .task-detail-list li:hover,
+.theme-green .pop .user-choose .f-r .model-box li:hover,
+.theme-green .soso-auto li.active,
+.theme-green .question-type li:hover{
+    background: #f5fff5;
+}
+
+.theme-green .question-group .each-group.active,
+.theme-green .form-template-list li:hover .in{
+    box-shadow: rgba(76,176,80,0.5) 0 0 10px;
+}
+
+.theme-green table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-green .question-group .each-group.active,
+.theme-green .form-template-list li:hover .in,
+.theme-green .play-page-top .f-r .tag,
+.theme-green .task-detail-list li .do a,
+.theme-green .play-page-top .f-r .auto.active,
+.theme-green .play-page-top .f-r .text.active,
+.theme-green .play-page-top .f-r .auto:hover,
+.theme-green .play-page-top .f-r .text:hover,
+.theme-green .play-page-top .ctrl-box .f-l a,
+.theme-green .pop .group-list a.active,
+.theme-green a.btn-line,
+.theme-green input[type="range"]::-webkit-slider-thumb,
+.theme-green input[type="radio"]:checked,
+.theme-green .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-green .play-page-top .f-r .speed:hover{
+    border-color: #4cb050;
+}
+
+.theme-green input[type="checkbox"]:checked{
+    background-color: #4cb050;
+    border-color: #3d9f41;
+}
+
+/* ------------------theme-amber------------------ */
+/* amber 琥珀色*/
+/* #feaa07 */
+
+
+.theme-amber .login-page .bg,
+.theme-amber .side-container .bg{
+    background: #1b1915;
+    opacity: 0.92;
+}
+
+.theme-amber .btn-bg,
+.theme-amber .soso button,
+.theme-amber .tag-list li .time .icon,
+.theme-amber .pop .group-list a.active,
+.theme-amber .play-page-top .f-r .tag:hover,
+.theme-amber .task-detail-list li .do a:hover,
+.theme-amber .play-page-top .ctrl-box .f-l a:hover,
+.theme-amber .progress-bar .active-length .btn:before,
+.theme-amber .play-page-top .f-r .auto.active,
+.theme-amber .play-page-top .f-r .text.active,
+.theme-amber .progress-bar .active-length{
+    background: #feaa07;
+}
+
+.theme-amber .btn-bg:hover,
+.theme-amber .soso button:hover{
+    background: #f88906;
+}
+
+.theme-amber a.btn-line:hover {
+    background: #fffaf3;
+}
+
+.theme-amber .nav a.active span,
+.theme-amber .nav a.active i.iconfont,
+.theme-amber .tree .name a.icon:hover .iconfont,
+.theme-amber .tree .name a.text:hover,
+.theme-amber .tree li a:hover,
+.theme-amber .tree .icon-tree-open,
+.theme-amber .tree .active,
+.theme-amber .tab li a:hover,
+.theme-amber table td .do i,
+.theme-amber table th a:hover span,
+.theme-amber table th a:hover i.iconfont,
+.theme-amber .pagination button:hover,
+.theme-amber .pop .btn a.action,
+.theme-amber .tag-list li a:hover .time,
+.theme-amber .tag-list li a:hover .each-title,
+.theme-amber .tag-list li a:hover .description,
+.theme-amber .do.new-window a:hover i.iconfont,
+.theme-amber .play-page-top .ctrl-box .f-l a i.iconfont,
+.theme-amber .model-box .title .f-r .do a i.iconfont,
+.theme-amber .down-load,
+.theme-amber .group-path a,
+.theme-amber .question-type li,
+.theme-amber .add-group-btn,
+.theme-amber .question-group .each-group.active .title .f-l,
+.theme-amber .department .do a:hover,
+.theme-amber .ta_date .opt_sel,
+.theme-amber .form-template-list .do a,
+.theme-amber .step span.active,
+.theme-amber .person-sel .tree-box .tree .user a:hover,
+.theme-amber .play-page-top .f-r .auto:hover,
+.theme-amber .play-page-top .f-r .text:hover,
+.theme-amber .play-page-top .f-r .tag,
+.theme-amber .task-detail-list li .do a i.iconfont,
+.theme-amber a.btn-line,
+.theme-amber .play-page-top .flex-box .scroll-text p.active,
+.theme-amber .play-page-top .f-r .speed:hover{
+    color: #feaa07;
+}
+
+.theme-amber table td .do a:hover i,
+.theme-amber .pop .btn a.action:hover,
+.theme-amber .model-box .title .f-r .do a:hover i.iconfont,
+.theme-amber .down-load:hover,
+.theme-amber .group-path a:hover,
+.theme-amber .add-group-btn:hover,
+.theme-amber .form-template-list .do a:hover{
+    color: #f88906;
+}
+
+.theme-amber table tr:hover,
+.theme-amber .rank-box .each-group li:hover,
+.theme-amber .task-detail-list li:hover,
+.theme-amber .pop .user-choose .f-r .model-box li:hover,
+.theme-amber .soso-auto li.active,
+.theme-amber .question-type li:hover{
+    background: #fffaf3;
+}
+
+.theme-amber .question-group .each-group.active,
+.theme-amber .form-template-list li:hover .in{
+    box-shadow: rgba(254,170,7,0.5) 0 0 10px;
+}
+
+.theme-amber table.dateRangeDateTable tr:hover{
+    background: none;
+}
+
+.theme-amber .question-group .each-group.active,
+.theme-amber .form-template-list li:hover .in,
+.theme-amber .play-page-top .f-r .tag,
+.theme-amber .task-detail-list li .do a,
+.theme-amber .play-page-top .f-r .auto.active,
+.theme-amber .play-page-top .f-r .text.active,
+.theme-amber .play-page-top .f-r .auto:hover,
+.theme-amber .play-page-top .f-r .text:hover,
+.theme-amber .play-page-top .ctrl-box .f-l a,
+.theme-amber .pop .group-list a.active,
+.theme-amber a.btn-line,
+.theme-amber input[type="range"]::-webkit-slider-thumb,
+.theme-amber input[type="radio"]:checked,
+.theme-amber .soso-bar .advanced-drop input[type="radio"]:checked,
+.theme-amber .play-page-top .f-r .speed:hover{
+    border-color: #feaa07;
+}
+
+.theme-amber input[type="checkbox"]:checked{
+    background-color: #feaa07;
+    border-color: #e57b0a;
+}

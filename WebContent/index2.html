@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="theme-default">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Quality</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/style.css">
+ 	<link rel="stylesheet" href="css/evol.colorpicker.min.css" />
+ 	<script type="text/javascript" src="js/jQuery v1.11.1.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="js/evol.colorpicker.min.js"></script>
+	<script type="text/javascript" src="js/ui.js"></script>
+</head>
+<body>
+
+
+<!--报表统计 模版管理 模版设置-->
+
+<!--path-->
+<div class="path">
+    <span class="icon-border"><i class="iconfont icon-statistics"></i></span>
+    <span class="title">statistics</span>
+    <span class="sub">&nbsp;/&nbsp;creat template</span>
+</div>
+<!--path-->
+
+<div class="model-box m-b-10">
+    <div class="title step clearfix">
+        <span>1.&nbsp;select chart</span><i class="iconfont icon-arrow-d rote-270"></i><span class="active">2.&nbsp;customization chart</span>
+    </div>
+
+    <div class="in template-set clearfix">
+
+        <div class="f-l">
+            <div class="in">
+            	<div id="chart" style="width:100%;height:600px">
+            	</div>
+            </div>
+        </div>
+
+        <div class="f-r">
+
+            <div class="tab">
+                <ul class="clearfix">
+                    <li>
+                        <a class="active">base info</a>
+                    </li>
+                    <li>
+                        <a>data parameter</a>
+                    </li>
+                    <li>
+                        <a>style</a>
+                    </li>
+                    <li>
+                        <a>permissions</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-box">
+
+                <!--基础信息-->
+                <div id="box-0" class="form">
+                    <p class="sub-title">title</p>
+                    <input type="text" id="title" onblur="addTitle()"/>
+                    <p class="sub-title">description</p>
+                    <textarea rows="8"></textarea>
+                </div>
+                <!--基础信息-->
+
+                <!--参数设置-->
+                <div id="box-1" class="form" style="display: none;">
+                    <!--数据源-->
+                    <div class="each-box">
+                        <p class="sub-title">Choose Original Data</p>
+                        <div class="sel-box">
+                            <select  id="selectdata" onchange="selectData()" >
+                                <option value="hour">1小时统计原始表</option>
+                                <option value="day">1天统计原始表</option>
+                                <option value="week">1周统计原始表</option>
+                            </select>
+                            <i class="iconfont icon-arrow-d"></i>
+                        </div>
+                    </div>
+                    <!--数据源-->
+
+                    <!--图例类型-->
+                    <div class="each-box">
+                        <p class="sub-title">Legend Type</p>
+                        <div class="group" id="legend_group">
+                            <label><input name="type" type="radio" checked="checked" value="index"/><span>Index</span></label>
+                            <label><input name="type" type="radio" value="department"/><span>Department</span></label>
+                            <label><input name="type" type="radio" value="user"/><span>Agent</span></label>
+                        </div>
+                        <ul class="list" id="legend_list">
+                            <li><label><input name="checkbox"  checked="checked"  onclick="selectlegend()" type="checkbox"/><span>通话量</span></label></li>
+                            <li><label><input name="checkbox"  checked="checked"  onclick="selectlegend()" type="checkbox"/><span>业务完整数量</span></label></li>
+                            <li><label><input name="checkbox"  checked="checked"  onclick="selectlegend()" type="checkbox"/><span>座席未按流程操作数量</span></label></li>
+                            <li><label><input name="checkbox"  checked="checked"  onclick="selectlegend()" type="checkbox"/><span>客户出现投诉数量</span></label></li>
+                        </ul>
+                    </div>
+                    <!--图例类型-->
+
+                    <!--统计对象-->
+                    <div class="each-box">
+                        <p class="sub-title">Statistics Object</p>
+                        <div class="group" id="object_group">
+                            <label><input name="object" type="radio" onclick="selectObject()" checked="checked" value="department"/><span>Department</span></label>
+                            <label><input name="object" type="radio" onclick="selectObject()" value="user"/><span>Agent</span></label>
+                        </div>
+                        <ul class="list" id="object_list">
+                            <li><label><input name="object_list_item" type="radio"/><span>部门1</span></label></li>
+                            <li><label><input name="object_list_item" type="radio"/><span>部门2</span></label></li>
+                            <li><label><input name="object_list_item" type="radio"/><span>部门3</span></label></li>
+                            <li><label><input name="object_list_item" type="radio"/><span>部门4</span></label></li>
+                        </ul>
+                    </div>
+                    <!--统计对象-->
+
+                    <!--报表生成规则-->
+                    <div class="each-box">
+                        <p class="sub-title">Report Generation Rule</p>
+                        <div class="group" id="createrule">
+                            <label><input name="rule" type="radio"
+                                          checked="checked" value="history"/><span>History Report</span></label>
+                            <label><input name="rule" type="radio" value="realtime"/><span>Real-time Report</span></label>
+                        </div>
+                    </div>
+                    <!--报表生成规则-->
+
+                    <!--历史报表参数-->
+                    <div class="each-box">
+                        <p class="sub-title">Range of Data</p>
+                        <div class="group">
+                            <label><input name="range" type="radio" checked="checked" value="natural"/><span>Natural day</span></label>
+                            <label><input name="range" type="radio" value="special"/><span>Before the report generation time</span></label>
+                            <div class="time" id="time">
+                                <input name="time" type="text"><span>Days</span>
+                                <input name="time" type="text"><span>Hours</span>
+                                <input name="time" type="text"><span>Minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="each-box" id="creatTime">
+                        <p class="sub-title">Report Generation Time</p>
+                        <div class="sel-group clearfix">
+                            <div class="sel-box" >
+                                <select id = "select_date1">
+                                    <option selected ="selected">Daily</option>
+                                    <option >Weekly</option>
+                                    <option >Monthly</option>
+                                </select>
+                                <i class="iconfont icon-arrow-d"></i>
+                            </div>
+                            <div class="sel-box">
+                                <select id = "select_date2">
+                                    <option selected="selected">周一</option>
+                                    <option>周二</option>
+                                    <option>周三</option>
+                                    <option>周四</option>
+                                    <option>周五</option>
+                                    <option>周六</option>
+                                    <option>周日</option>
+                                </select>
+                                <i class="iconfont icon-arrow-d"></i>
+                            </div>
+                            <div class="sel-box">
+                                <select id = "select_date3">
+                                    <option>00:00</option>
+                                    <option>01:00</option>
+                                    <option>02:00</option>
+                                    <option>03:00</option>
+                                    <option>04:00</option>
+                                    <option>05:00</option>
+                                    <option>06:00</option>
+                                    <option>07:00</option>
+                                    <option>08:00</option>
+                                    <option>09:00</option>
+                                    <option>10:00</option>
+                                    <option>11:00</option>
+                                    <option>12:00</option>
+                                    <option>13:00</option>
+                                    <option>14:00</option>
+                                    <option>15:00</option>
+                                    <option>16:00</option>
+                                    <option>17:00</option>
+                                    <option>18:00</option>
+                                    <option>19:00</option>
+                                    <option>20:00</option>
+                                    <option>21:00</option>
+                                    <option>22:00</option>
+                                    <option>23:00</option>
+                                </select>
+                                <i class="iconfont icon-arrow-d"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--历史报表参数-->
+                </div>
+                <!--参数设置-->
+
+                <!--样式设置-->
+                <div id="box-2" class="form" style="display: none;">
+                    <p class="sub-title">background color</p>
+                    <input type="text" id="bgColor"  value="#ffffff"/>
+                    <p class="sub-title">title font size</p>
+                    <div class="sel-box">
+                        <select  id="selecttitlesize" onchange="selectTitleSize()" >
+                            <option value="18">18px</option>
+                            <option value="20">20px</option>
+                            <option value="22">22px</option>
+                            <option value="24">24px</option>
+                        </select>
+                        <i class="iconfont icon-arrow-d"></i>
+                    </div>
+                    <p class="sub-title">title font color</p>
+                    <input type="text" id="fontColor" value="#353535"/>
+                </div>
+                <!--样式设置-->
+
+                <!--权限设置-->
+                <div id="box-3" style="display: none;">
+
+                    <div class="person-sel clearfix">
+                        <div id="for-choose" class="tree-box">
+                            <div class="tree">
+                                <div class="group-each">
+                                    <div class="name">
+                                        <a class="icon"><i class="iconfont icon-tree-close"></i></a>
+                                        <label><input name="departmentAll" type="checkbox"/><a class="text">operate</a></label>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <label><input checked="checked" name="teamAll" type="checkbox"/><a class="team">Team
+                                                one</a></label>
+                                            <div class="user">
+                                                <label><input checked="checked" name="sub" type="checkbox"/><a>allen</a></label>
+                                                <label><input checked="checked" name="sub" type="checkbox"/><a>wanda</a></label>
+                                                <label><input checked="checked" name="sub" type="checkbox"/><a>jack</a></label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label><input name="teamAll" type="checkbox"/><a class="team">Team
+                                                one</a></label>
+                                            <div class="user">
+                                                <label><input name="sub" type="checkbox"/><a>tom</a></label>
+                                                <label><input name="sub" type="checkbox"/><a>eason</a></label>
+                                                <label><input name="sub" type="checkbox"/><a>andy</a></label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label><input name="teamAll" type="checkbox"/><a class="team">Team
+                                                one</a></label>
+                                            <div class="user">
+                                                <label><input name="sub" type="checkbox"/><a>joce</a></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="group-each">
+                                    <div class="name">
+                                        <a class="icon"><i class="iconfont icon-tree-close"></i></a>
+                                        <label><input name="departmentAll" type="checkbox"/><a
+                                                class="text">market</a></label>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <label><input name="teamAll" type="checkbox"/><a class="team">Team
+                                                one</a></label>
+                                            <div class="user">
+                                                <label><input name="sub" type="checkbox"/><a>jack</a></label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label><input name="teamAll" type="checkbox"/><a class="team">Team
+                                                one</a></label>
+                                            <div class="user">
+                                                <label><input name="sub" type="checkbox"/><a>junxi</a></label>
+                                                <label><input name="sub" type="checkbox"/><a>sharp</a></label>
+                                                <label><input name="sub" type="checkbox"/><a>jerry</a></label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label><input name="teamAll" type="checkbox"/><a class="team">Team
+                                                one</a></label>
+                                            <div class="user">
+                                                <label><input name="sub" type="checkbox"/><a>wang qiang</a></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a id="chooseAllBtn" class="btn-line">choose all</a>
+                            <a id="deleteAllBtn" class="btn-line">delete all</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--权限设置-->
+
+
+            </div>
+
+            <div class="btn-box clearfix">
+                <div class="f-l">
+                    <a class="btn-line" href="javascript:previousstep();">previous step</a>
+                </div>
+                <div class="f-r">
+                    <a class="btn-bg" href="javascript:save();">save</a>
+                    <a class="btn-line-d" href="/">cancel</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script type="text/javascript" src="js/template_option.js"></script>
+<script type="text/javascript" src="js/index2.js"></script>
+<!--报表统计 模版管理 模版设置-->
+
+</body>
+</html>

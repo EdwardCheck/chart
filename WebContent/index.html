@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="theme-default">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Quality</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jQuery v1.11.1.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/echarts.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+
+
+<!--报表统计 模版管理 新建模版-->
+
+<!--path-->
+<div class="path">
+    <span class="icon-border"><i class="iconfont icon-statistics"></i></span>
+    <span class="title">statistics</span>
+    <span class="sub">&nbsp;/&nbsp;creat template</span>
+</div>
+<!--path-->
+
+<div class="model-box m-b-10">
+    <div class="title step clearfix">
+        <span class="active">1.&nbsp;select chart</span><i class="iconfont icon-arrow-d rote-270"></i><span>2.&nbsp;customization chart</span>
+    </div>
+
+    <div class="in">
+        <ul class="form-template-list link clearfix" id="ul">
+            <li>
+                <div id="box0" class="in" onclick="select(0)">
+                    <div class="title">Bar-Chart</div>
+                    <div class="box">
+                        <a href="javascript:selectchart(0);"><img src="images/histogram.png" /></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="box1" class="in" onclick="select(1)">
+                    <div class="title">Line-Chart</div>
+                    <div class="box">
+                    <a href="javascript:selectchart(1);"><img src="images/line-chart.png" /></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="box2"  class="in" onclick="select(2)">
+                    <div class="title">Pie-Chart</div>
+                    <div class="box">
+                    <a href="javascript:selectchart(2);"><img src="images/pie-chart.png" /></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="box3" class="in" onclick="select(3)">
+                    <div class="title">Treemap-Chart</div>
+                    <div class="box">
+                    <a href="javascript:selectchart(3);"><img src="images/treemap-chart.png" /></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="pagination-box clearfix">
+            <div class="pagination clearfix">
+                <a class="pre disable"><i class="iconfont icon-arrow-p-l"></i></a>
+                <span class="num">1/1</span>
+                <a class="next"><i class="iconfont icon-arrow-p-r"></i></a>
+                <input type="text"/>
+                <button>Go</button>
+            </div>
+            <div class="all-num">total:<span>4</span>records</div>
+            <div style="padding-left:50px;float:left"><a class="btn-line" href="javascript:nextstep();">next step</a></div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--报表统计 模版管理 新建模版-->
+
+
+</body>
+</html>
